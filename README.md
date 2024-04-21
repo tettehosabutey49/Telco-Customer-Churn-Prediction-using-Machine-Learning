@@ -21,6 +21,9 @@ Welcome to my project repository, where I explore the Telco customer churn predi
 - Focus on improving services for customers with phone services and paperless billing.
 - Offer incentives for customers to switch to longer contract terms.
 - Encourage customers to use alternative payment methods to electronic checks.
+- Taking into consideration the threshold during churn predictions can also assist in identifying more customers likely to churn
+- It is also key to note that in an attempt to ensure “customers who have been predicted to likely churn” do not churn, by probably intruding some discounts for such customers, there is a likelihood the model might have selected a few or some customers who are not likely to churn. This might cause financial constraint. To reduce this type of burden on the company, a good threshold which has a good balance of both true positives and false negative is essential.
+
 
 ## Getting Started
 To get a local copy up and running, follow these steps:
